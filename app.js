@@ -44,9 +44,10 @@ function PageTransition(){
 
 }
 
-PageTransition();
 
-// Create the custom cursor
+
+
+// Create the custom cursor element
 const cursor = document.createElement('div');
 cursor.classList.add('cursor');
 document.body.appendChild(cursor);
@@ -57,11 +58,11 @@ document.addEventListener('mousemove', (e) => {
     cursor.style.left = `${e.clientX}px`;
 });
 
-// Initialize particles.js for electric effect
+// Optionally, add some particle effects for the electric feel
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 80,
+      "value": 100,
       "density": {
         "enable": true,
         "value_area": 800
@@ -74,19 +75,16 @@ particlesJS("particles-js", {
       "type": "circle"
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.6,
       "random": true
     },
     "size": {
-      "value": 5,
+      "value": 4,
       "random": true
-    },
-    "line_linked": {
-      "enable": false
     },
     "move": {
       "enable": true,
-      "speed": 6,
+      "speed": 5,
       "direction": "none",
       "random": false,
       "straight": false,
@@ -97,16 +95,44 @@ particlesJS("particles-js", {
     }
   },
   "interactivity": {
-    "detect_on": "canvas",
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "repulse"
+        "mode": "bubble"
       }
     }
   },
   "retina_detect": true
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PageTransition();
+
+
+
+
+
+
+
 
 
 
