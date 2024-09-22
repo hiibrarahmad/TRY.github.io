@@ -47,65 +47,51 @@ function PageTransition(){
 
 
 
-// Create the custom cursor element
-const cursor = document.createElement('div');
-cursor.classList.add('cursor');
-document.body.appendChild(cursor);
-
-// Update cursor position based on mouse movement
-document.addEventListener('mousemove', (e) => {
-    cursor.style.top = `${e.clientY}px`;
-    cursor.style.left = `${e.clientX}px`;
-});
-
-// Initialize particles.js for electric effect
 particlesJS("particles-js", {
-  "particles": {
-    "number": {
-      "value": 100,
-      "density": {
+    "particles": {
+      "number": {
+        "value": 80, // Adjust the number of particles
+        "density": {
+          "enable": true,
+          "value_area": 800 // The area where particles will be distributed
+        }
+      },
+      "color": {
+        "value": ["#00ffff", "#00aaff", "#ffffff"] // Electric spark colors (cyan, blue, white)
+      },
+      "shape": {
+        "type": "circle", // You can also experiment with "edge" or "triangle"
+      },
+      "opacity": {
+        "value": 0.6, // Semi-transparent for electric glow effect
+        "random": true
+      },
+      "size": {
+        "value": 5, // Size of particles
+        "random": true // Random size for variety
+      },
+      "move": {
         "enable": true,
-        "value_area": 800
+        "speed": 6, // Speed of the particles, adjust to make it feel "electric"
+        "direction": "none", // Moves randomly in all directions
+        "random": true,
+        "straight": false, // If true, particles will move in straight lines
+        "out_mode": "out", // Particles will disappear and reappear
+        "bounce": false // Particles won't bounce on the edges
       }
     },
-    "color": {
-      "value": ["#00ffff", "#00aaff"]
-    },
-    "shape": {
-      "type": "circle"
-    },
-    "opacity": {
-      "value": 0.6,
-      "random": true
-    },
-    "size": {
-      "value": 4,
-      "random": true
-    },
-    "move": {
-      "enable": true,
-      "speed": 5,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "attract": {
-        "enable": false
+    "interactivity": {
+      "detect_on": "canvas", // Detects mouse interaction within the canvas
+      "events": {
+        "onhover": {
+          "enable": true, // Interact with the mouse on hover
+          "mode": "repulse" // Particles move away from the cursor
+        }
       }
-    }
-  },
-  "interactivity": {
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "bubble"
-      }
-    }
-  },
-  "retina_detect": true
-});
-
-
+    },
+    "retina_detect": true // Adjusts for high-resolution displays
+  });
+  
 
 
 
