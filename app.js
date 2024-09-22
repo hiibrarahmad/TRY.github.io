@@ -46,5 +46,66 @@ function PageTransition(){
 
 PageTransition();
 
+particlesJS('particles-js', {
+    "particles": {
+      "number": {
+        "value": 100,
+        "density": {
+          "enable": true,
+          "value_area": 800
+        }
+      },
+      "color": {
+        "value": "#00ff99" /* Electric green, adjust to your preference */
+      },
+      "shape": {
+        "type": "edge", /* You can try 'circle', 'polygon', or 'star' */
+        "stroke": {
+          "width": 2,
+          "color": "#00ff99" /* Stroke color */
+        },
+      },
+      "opacity": {
+        "value": 0.5,
+        "random": true
+      },
+      "size": {
+        "value": 5,
+        "random": true
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 150,
+        "color": "#00ff99",
+        "opacity": 0.6,
+        "width": 2
+      },
+      "move": {
+        "enable": true,
+        "speed": 6,
+        "direction": "none",
+        "random": true,
+        "straight": false,
+        "out_mode": "out",
+        "bounce": false,
+      }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "repulse" /* The particles will repel from the cursor */
+        },
+        "onclick": {
+          "enable": true,
+          "mode": "push"
+        },
+      },
+    },
+    "retina_detect": true
+  });
+  
+
 
 
