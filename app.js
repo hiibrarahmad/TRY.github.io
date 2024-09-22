@@ -58,7 +58,7 @@ document.addEventListener('mousemove', (e) => {
     cursor.style.left = `${e.clientX}px`;
 });
 
-// Optionally, add some particle effects for the electric feel
+// Initialize particles.js for electric effect
 particlesJS("particles-js", {
   "particles": {
     "number": {
@@ -104,7 +104,6 @@ particlesJS("particles-js", {
   },
   "retina_detect": true
 });
-
 
 
 

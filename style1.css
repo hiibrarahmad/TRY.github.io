@@ -94,3 +94,23 @@ h1 {
 h2 {
   margin-top: 0;
 }
+
+
+
+/* Hide the default cursor */
+body {
+  cursor: none;
+}
+
+/* Create the custom electric cursor */
+.cursor {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, #00ffff, #00aaff, transparent);
+  pointer-events: none;
+  z-index: 1000;
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s ease-out;
+}
