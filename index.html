@@ -1,413 +1,475 @@
-<!DOCTYPE html>
-<html lang="en">
+<!--
+Author: http://webthemez.com
+Note: Donate to remove backlink/credits in the footer(webthemez.com)--
+Any help: webthemez@gmail.com
+Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
+-->
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<title>Wow Portfolio Multi Purpose HTML5 Template | Webthemez</title>
+<link rel="icon" href="favicon.png" type="image/png">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link href="css/style.css" rel="stylesheet" type="text/css"> 
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+ 
+<!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+ 
 </head>
-<body class="main-content">
-    <header class="section sec1 header active" id="home">
-        <div class="header-content">
-            <div class="left-header">
-                <div class="h-shape"></div>
-                <div class="image">
-                    <img src="img/hero1.png" alt="">
-                </div>
-            </div>
-            <div class="right-header">
-                <h1 class="name">
-                    Hi, I,m <span class="name">Ibrar Ahmad</span>
-                    A Pcb desinger
-                </h1>
+<body>
+
+<!--Hero_Section-->
+<section id="hero_section" class="top_cont_outer">
+  <div class="hero_wrapper">
+    <div class="container">
+      <div class="hero_section">
+        <div class="row">
+          <div class="col-md-12">
+		   
+            <div class="top_left_cont zoomIn wow animated"> 
+              <h2>Hello, my name is Ibrar Ahmad<br> <strong>I <i class="fa fa-heart"></i>PCB Designing</strong></h2>
+
+                <div class="underline"></div>             
+              <a href="#aboutUs" class="read_more2">Who Am I</a> </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Hero_Section--> 
+
+<!--Header_section-->
+<header id="header_wrapper">
+  <div class="container">
+    <div class="header_box">
+      <div class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
+	  <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+	    <div id="main-nav" class="collapse navbar-collapse navStyle">
+			<ul class="nav navbar-nav" id="mainNav">
+			  <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
+			  <li><a href="#aboutUs" class="scroll-link">About Me</a></li>
+			  <li><a href="#service" class="scroll-link">Skills</a></li>
+			  <li><a href="#Portfolio" class="scroll-link">Projects</a></li>
+			  <li><a href="#clients" class="scroll-link">Experience</a></li>
+			  <li><a href="#team" class="scroll-link">Testimonial</a></li>
+			  <li><a href="#contact" class="scroll-link">Contact</a></li>
+			</ul>
+      </div>
+	 </nav>
+    </div>
+  </div>
+</header>
+<!--Header_section--> 
+<section id="aboutUs">
+  <!--Aboutus-->
+  <div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
+    <div class="container">
+      <h2>Who Am I</h2>
+      <h6>Passionate Embedded Systems Engineer & PCB Designer</h6>
+      <div class="inner_section">
+        <div class="row">
+          <div class="col-lg-12 about-us">
+            <div class="row">
+              <div class="col-md-6">
+                <img class="img-responsive" src="img/about1.jpg" alt="About Image">
+              </div>
+              <!-- /.col-md-6 -->
+              <div class="col-md-6">
+                <h3>Designing Advanced Embedded Systems and PCBs</h3>
                 <p>
-                    I,m an ENgineer At RMT.inc, I do lead pcb team.
+                  I specialize in creating innovative and high-performance embedded systems and PCB designs. With experience in various IoT projects, firmware development, and PCB design, I am passionate about delivering cutting-edge solutions.
                 </p>
-                <div class="btn-con">
-                    <a href="" class="main-btn">
-                        <span class="btn-text">Download CV</span>
-                        <span class="btn-icon"><i class="fas fa-download"></i></span>
-                    </a>
-                </div>
+
+                <ul class="about-us-list">
+                  <li class="points">Experience in PCB design, schematic review, and Carvera-based fabrication.</li>
+                  <li class="points">Firmware development and debugging for medical-grade devices.</li>
+                  <li class="points">Proficient in tools like Altium Designer for advanced PCB design.</li>
+                  <li class="points">Strong foundation in embedded systems programming and R&D development.</li>
+                  <li class="points">Experienced in debugging, troubleshooting, and research and development for embedded hardware.</li>
+                </ul>
+                <!-- /.about-us-list -->
+              </div>
+              <!-- /.col-md-6 -->
             </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.col-lg-12 -->
         </div>
-    </header>
-    <main>
-        <section class="section sec2 about" id="about">
-        <div class="main-title">
-            <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
-        </div>
-        <div class="about-container">
-            <div class="left-about">
-                <h4>Information About me</h4>
-                <p>
-                  I am a passionate PCB designer driven by innovation and precision. Currently, I am working on advanced PCB designing and fabrication using Carvera, while focusing on debugging, troubleshooting, and research & development. My expertise extends to firmware development and working with medical-grade devices.
-                </p>
-                <div class="btn-con">
-                    <a href="" class="main-btn">
-                     <!-- 
-                        <span class="btn-text">Download CV</span>
-                        <span class="btn-icon"><i class="fas fa-download"></i></span> 
-                         -->  
-                    </a>
-                </div>
-            </div>
-            <div class="right-about">
-                <div class="about-item">
-                    <div class="abt-text">
-                      <p class="large-text">40+</p>
-                      <p class="small-text">Projects<br/>completed</p>
-                    </div>
-                </div>
-                <div class="about-item">
-                    <div class="abt-text">
-                      <p class="large-text">2+</p>
-                      <p class="small-text">Years of <br/>Experince</p>
-                    </div>
-                </div>
-                <div class="about-item">
-                    <div class="abt-text">
-                      <p class="large-text">2024</p>
-                      <p class="small-text">Join Job <br/>AT Revive Medical Technology</p>
-                    </div>
-                </div>
-                <div class="about-item">
-                    <div class="abt-text">
-                      <p class="large-text">2024</p>
-                      <p class="small-text">Bachloer's<br/>in Electerical Engineering</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="about-stats">
-            <h4 class="stat-title">My skills</h4>
-            <div class="progress-bars">
-                <div class="progress-bar">
-                    <div class="prog-title">PCB Design</div>
-                    <div class="progress-con">
-                        <p class="prog text">90%</p>
-                        <div class="progress">
-                            <span class="pcb"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-bar">
-                    <div class="prog-title">Firmware Development</div>
-                    <div class="progress-con">
-                        <p class="prog text">85%</p>
-                        <div class="progress">
-                            <span class="firmware"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-bar">
-                    <div class="prog-title">Embedded C/C++</div>
-                    <div class="progress-con">
-                        <p class="prog text">80%</p>
-                        <div class="progress">
-                            <span class="embedded-c"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-bar">
-                    <div class="prog-title">Altium Designer</div>
-                    <div class="progress-con">
-                        <p class="prog text">75%</p>
-                        <div class="progress">
-                            <span class="altium"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="about-stats">
-                <h4 class="stat-title">My skills</h4>
-            
-                <!-- Programming Languages -->
-                <div class="skills-category">
-                    <h5 class="category-title">Programming Languages</h5>
-                    <ul class="skills-list">
-                        <li><a href="https://isocpp.org/" target="_blank"><i class="fas fa-laptop-code"></i> C/C++</a></li>
-                        <li><a href="https://www.python.org/" target="_blank"><i class="fab fa-python"></i> Python</a></li>
-                        <li><a href="https://www.java.com/" target="_blank"><i class="fab fa-java"></i> Java</a></li>
-                    </ul>
-                </div>
-            
-                <!-- Microcontrollers and Embedded Systems -->
-                <div class="skills-category">
-                    <h5 class="category-title">Microcontrollers and Embedded Systems</h5>
-                    <ul class="skills-list">
-                        <li><a href="https://www.arduino.cc/" target="_blank"><i class="fas fa-microchip"></i> Arduino</a></li>
-                        <li><a href="https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html" target="_blank"><i class="fas fa-microchip"></i> STM32</a></li>
-                        <li><a href="https://www.raspberrypi.org/" target="_blank"><i class="fas fa-raspberry-pi"></i> Raspberry Pi</a></li>
-                        <li><a href="https://www.espressif.com/en/products/socs/esp32" target="_blank"><i class="fas fa-microchip"></i> ESP32</a></li>
-                    </ul>
-                </div>
-            
-                <!-- PCB Design Tools -->
-                <div class="skills-category">
-                    <h5 class="category-title">PCB Design Tools</h5>
-                    <ul class="skills-list">
-                        <li><a href="https://www.altium.com/" target="_blank"><i class="fas fa-circuit-board"></i> Altium Designer</a></li>
-                        <li><a href="https://www.autodesk.com/products/eagle/overview" target="_blank"><i class="fas fa-circuit-board"></i> Eagle</a></li>
-                        <li><a href="https://www.labcenter.com/" target="_blank"><i class="fas fa-circuit-board"></i> Proteus</a></li>
-                        <li><a href="https://kicad.org/" target="_blank"><i class="fas fa-circuit-board"></i> KiCad</a></li>
-                        <li><a href="https://www.pcblibraries.com/PCBToolkit.aspx" target="_blank"><i class="fas fa-tools"></i> PCB Toolkit</a></li>
-                        <li><a href="https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html" target="_blank"><i class="fas fa-circuit-board"></i> LTspice</a></li>
-                    </ul>
-                </div>
-            
-                <!-- Development Environments -->
-                <div class="skills-category">
-                    <h5 class="category-title">Development Environments</h5>
-                    <ul class="skills-list">
-                        <li><a href="https://www.keil.com/" target="_blank"><i class="fas fa-tools"></i> Keil</a></li>
-                        <li><a href="https://www.iar.com/" target="_blank"><i class="fas fa-tools"></i> IAR</a></li>
-                        <li><a href="https://www.xilinx.com/" target="_blank"><i class="fas fa-tools"></i> Xilinx</a></li>
-                        <li><a href="https://www.visualstudio.com/" target="_blank"><i class="fab fa-microsoft"></i> Visual Studio</a></li>
-                        <li><a href="https://code.visualstudio.com/" target="_blank"><i class="fas fa-code"></i> Visual Studio Code</a></li>
-                    </ul>
-                </div>
-            
-                <!-- Operating Systems -->
-                <div class="skills-category">
-                    <h5 class="category-title">Operating Systems</h5>
-                    <ul class="skills-list">
-                        <li><a href="https://www.linux.org/" target="_blank"><i class="fab fa-linux"></i> Linux</a></li>
-                        <li><a href="https://www.microsoft.com/en-us/windows" target="_blank"><i class="fab fa-windows"></i> Windows</a></li>
-                        <li><a href="https://www.freertos.org/" target="_blank"><i class="fas fa-code"></i> FreeRTOS</a></li>
-                        <li><a href="https://www.zephyrproject.org/" target="_blank"><i class="fas fa-code"></i> Zephyr</a></li>
-                    </ul>
-                </div>
-            
-                <!-- Version Control and Collaboration Tools -->
-                <div class="skills-category">
-                    <h5 class="category-title">Version Control and Collaboration</h5>
-                    <ul class="skills-list">
-                        <li><a href="https://git-scm.com/" target="_blank"><i class="fab fa-git"></i> Git</a></li>
-                        <li><a href="https://github.com/" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
-                        <li><a href="https://about.gitlab.com/" target="_blank"><i class="fab fa-gitlab"></i> GitLab</a></li>
-                        <li><a href="https://www.atlassian.com/software/jira" target="_blank"><i class="fab fa-jira"></i> JIRA</a></li>
-                        <li><a href="https://slack.com/" target="_blank"><i class="fab fa-slack"></i> Slack</a></li>
-                    </ul>
-                </div>
-            </div>
-            
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Aboutus--> 
+
+
+<!--Service-->
+<!--Service-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<!--Service-->
+<section id="service">
+  <div class="container">
+    <h2>Skills</h2>
+    <h6>Expert in PCB Design, Microcontroller Boards, and Power Solutions</h6>
+    <div class="service_wrapper">
+      <div class="row">
+        <!-- Advanced PCB Design -->
+        <div class="col-md-3">
+          <div class="service_icon delay-03s animated wow zoomIn">
+            <span><i class="fa fa-microchip"></i></span>
+          </div>
+          <div class="service_block">
+            <h3 class="animated fadeInUp wow">Advanced PCB Design</h3>
+            <p class="animated fadeInDown wow">Specialized in high-performance PCB designs with a focus on minimizing noise and enhancing efficiency for various industries.</p>
+          </div>
         </div>
         
-        <h4 class="stat-title">My Timeline</h4>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="tl-icon">
-                    <i class="fas fa-briefcase"></i>
-                </div>
-                <p class="tl-duration">2024(une) - current</p>
-                <h5>Embbedded Engineer & PCB team lead- <span>Revive Medical Technology Pvt. Ltd.</span></h5>
-                <p>* Provide Supoort for accounting software and tools <br>* Educated employees  on new feature capabilities</p>
-            </div>
-            <div class="timeline-item">
-                <div class="tl-icon">
-                    <i class="fas fa-briefcase"></i>
-                </div>
-                <p class="tl-duration">2024(march) - 2024(june)</p>
-                <h5>Technical Training Officer - <span>Revive Medical Technology Pvt. Ltd.</span></h5>
-                <p>Rakshpal Bahdur Institute of Management, <br> <p>Bareilly</p></p>
-            </div>
-            <div class="timeline-item">
-                <div class="tl-icon">
-                    <i class="fas fa-briefcase"></i>
-                </div>
-                <p class="tl-duration">2024(feb) - 2024(march)</p>
-                <h5>Internship Embedded Softwere Engineer- <span>Revive Medical Technology Pvt. Ltd.</span></h5>
-                <p>* Provide Supoort for accounting software and tools <br>* Educated employees  on new feature capabilities</p>
-            </div>
-            <div class="timeline-item">
-                <div class="tl-icon">
-                    <i class="fas fa-graduation-cap"></i>
-                </div>
-                <p class="tl-duration">2019 - 2024</p>
-                <h5>Bachloer's- <span>in Electerical Engineering</span></h5>
-                <p>COMSATS University,<br> Islamabad</p>
-            </div>
+        <!-- Carrier Board Design -->
+        <div class="col-md-3">
+          <div class="service_icon icon2 delay-03s animated wow zoomIn">
+            <span><i class="fa fa-network-wired"></i></span> <!-- Network-related icon for Carrier Board -->
+          </div>
+          <div class="service_block">
+            <h3 class="animated fadeInUp wow">Carrier Board Design</h3>
+            <p class="animated fadeInDown wow">Designing carrier boards that bridge the gap between high-speed interfaces, ensuring reliability and functionality.</p>
+          </div>
         </div>
-        </section>
-        <section class="section sec3 portfolio" id="portfolio">
-            <div class="main-title">
-                <h2>My <span>Portfolio</span><span class="bg-text">My work</span></h2>
-            </div>
-            <p class="port-text">
-                Here is some of my work, i have done in various projects.
-            </p>
-            <div class="portfolios">
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port1.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                      <h3>Project source</h3>
-                      <div class="icons">
-                         <a href="https://github.com/Mishraji566/Resturant_Billing_System" target="_blank" class="icon">
-                            <i class="fab fa-github"></i>
-                         </a>
-                      </div>  
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port1.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                      <h3>Project source</h3>
-                      <div class="icons">
-                         <a href="https://github.com/Mishraji566/Resturant_Billing_System" target="_blank" class="icon">
-                            <i class="fab fa-github"></i>
-                         </a>
-                      </div>  
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port1.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                      <h3>Project source</h3>
-                      <div class="icons">
-                         <a href="https://github.com/Mishraji566/Resturant_Billing_System" target="_blank" class="icon">
-                            <i class="fab fa-github"></i>
-                         </a>
-                      </div>  
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port1.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                      <h3>Project source</h3>
-                      <div class="icons">
-                         <a href="https://github.com/Mishraji566/Resturant_Billing_System" target="_blank" class="icon">
-                            <i class="fab fa-github"></i>
-                         </a>
-                      </div>  
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section sec4 games" id="games"></section>
-        <section class="section sec5 contact" id="contact">
-            <div class="contact-container">
-                <div class="main-title">
-                    <h2>Get in <span>Touch</span><span class="bg-text">Contact</span></h2>
-                </div>
-                <div class="contact-content-con">
-                    <div class="left-contact">
-                        <h4>Contact me Here</h4>
-                        <p>
-                            I am available for freelance work. If you have any project that you want to get started, 
-                            think you need my help with something or just fancy saying hey, then get in touch.
-                        </p>
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    Location
-                                </div>
-                                   <p> : Islamabad, Pakistan </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-envelope"></i>
-                                    <span>Email</span>
-                                </div>
-                                <p>
-                                    <span>:hiibrarahmad@gmail.com</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-phone-alt"></i>
-                                    Mobile
-                                </div>
-                                <p> : +92 309 8767341 </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-globe-asia"></i>
-                                  <p>  Languages </p>
-                                </div>
-                               : English, Urdu, Pashto
-                            </div>
-                        </div>
-                        <div class="contact-icons">
-                            <div class="contact-icon">
-                                <a href="https://m.facebook.com/hiibrarahmad" target="_blank">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="https://twitter.com/hiibrarahmad" target="_blank">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="https://github.com/hiibrarahmad" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/in/hiibrarahmad/" target="_blank">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="right-contact">
-                        <form action="" class="contact-form">
-                            <div class="input-control i-c-2">
-                                <input type="text" required placeholder="YOUR NAME">
-                                <input type="email" required placeholder="YOUR EMAIL">
-                            </div>
-                            <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT">
-                            </div>
-                            <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
-                            </div>
-                            <div class="submit-btn">
-                                <a href="#" class="main-btn">
-                                    <span class="btn-text">Download</span>
-                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
-                                </a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-    </main>
-
-    <div class="controlls">
-        <div class="control control-1 active-btn" data-id="home">
-            <i class="fas fa-home"></i>
+        
+        <!-- Microcontroller Board Design -->
+        <div class="col-md-3">
+          <div class="service_icon icon3 delay-03s animated wow zoomIn">
+            <span><i class="fa fa-microchip"></i></span> <!-- Microchip icon for Microcontroller -->
+          </div>
+          <div class="service_block">
+            <h3 class="animated fadeInUp wow">Microcontroller Board Design</h3>
+            <p class="animated fadeInDown wow">Expert in designing microcontroller boards for embedded systems, integrating various communication protocols and power optimization.</p>
+          </div>
         </div>
-        <div class="control control-2 " data-id="about">
-            <i class="fas fa-user"></i>
+        
+        <!-- Power PCB Design -->
+        <div class="col-md-3">
+          <div class="service_icon icon3 delay-03s animated wow zoomIn">
+            <span><i class="fa fa-bolt"></i></span> <!-- Power-related icon for Power PCB -->
+          </div>
+          <div class="service_block">
+            <h3 class="animated fadeInUp wow">Power PCB Design</h3>
+            <p class="animated fadeInDown wow">Proficient in designing power PCBs, focusing on voltage regulation, thermal management, and efficiency for high-demand applications.</p>
+          </div>
         </div>
-        <div class="control control-3 " data-id="portfolio">
-            <i class="fas fa-briefcase"></i>
-        </div>
-        <div class="control control-4 " data-id="game">
-            <a href="game.html"><i class="fas fa-dice"></i></a>
-        </div>
-        <div class="control control-5 " data-id="contact">
-            <i class="fas fa-envelope-open"></i>
-        </div>
+      </div> 
     </div>
-    <div class="theme-btn">
-        <i class="fas fa-adjust"></i>
-    </div>
-    <script src="app.js"></script>
+  </div>
+</section>
+<!--Service-->
+
+
+
+
+<!-- Portfolio -->
+<section id="Portfolio" class="content"> 
+  
+  <!-- Container -->
+  <div class="container portfolio_title"> 
     
+    <!-- Title -->
+    <div class="section-title">
+      <h2>Projects</h2>
+	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
+	  
+    </div>
+    <!--/Title --> 
+    
+  </div>
+  <!-- Container -->
+  
+  <div class="portfolio-top"></div>
+  
+  <!-- Portfolio Filters -->
+  <div class="portfolio"> 
+    
+    <div id="filters" class="sixteen columns">
+      <ul class="clearfix">
+        <li><a id="all" href="#" data-filter="*" class="active">
+          <h5>All</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".prototype">
+          <h5>Prototype</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".design">
+          <h5>Design</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".android">
+          <h5>Android</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".appleIOS">
+          <h5>Apple IOS</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".web">
+          <h5>Web App</h5>
+          </a></li>
+      </ul>
+    </div>
+    <!--/Portfolio Filters --> 
+    
+    <!-- Portfolio Wrapper -->
+    <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">  
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   appleIOS isotope-item effect-oscar">
+	   
+        <div class="portfolio_img"> 
+		<img src="img/portfolio_pic1.jpg"  alt="Portfolio 1"> </div> 
+			<figcaption>		
+				<div>
+				  <a href="img/portfolio_pic1.jpg" class="fancybox"> 
+					<h2>Warm <span>Oscar</span></h2>
+							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item-->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/portfolio_pic2.jpg" alt="Portfolio 1"> </div>
+        	<figcaption>		
+				<div>
+				  <a href="img/portfolio_pic2.jpg" class="fancybox"> 
+					<h2>Warm <span>Oscar</span></h2>
+							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design  isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/portfolio_pic3.jpg" alt="Portfolio 1"> </div>
+       <figcaption>		
+				<div>
+				  <a href="img/portfolio_pic3.jpg" class="fancybox"> 
+					<h2>Warm <span>Oscar</span></h2>
+							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item--> 
+      
+      <!-- Portfolio Item-->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  android  prototype web isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/portfolio_pic4.jpg" alt="Portfolio 1"> </div>
+         <figcaption>		
+				<div>
+				  <a href="img/portfolio_pic4.jpg" class="fancybox"> 
+					<h2>Warm <span>Oscar</span></h2>
+							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  </a>
+				</div>
+			</figcaption>
+      </figure>
+      <!-- Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/portfolio_pic5.jpg" alt="Portfolio 1"> </div>
+       <figcaption>		
+				<div>
+				  <a href="img/portfolio_pic5.jpg" class="fancybox"> 
+					<h2>Warm <span>Oscar</span></h2>
+							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  </a>
+				</div>
+			</figcaption>
+      </figure>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/portfolio_pic6.jpg" alt="Portfolio 1"> </div>
+       <figcaption>		
+				<div>
+				  <a href="img/portfolio_pic6.jpg" class="fancybox"> 
+					<h2>Warm <span>Oscar</span></h2>
+							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  </a>
+				</div>
+			</figcaption>
+      </figure>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item  -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design web isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/portfolio_pic7.jpg" alt="Portfolio 1"> </div>       
+       <figcaption>		
+				<div>
+				  <a href="img/portfolio_pic7.jpg" class="fancybox"> 
+					<h2>Warm <span>Oscar</span></h2>
+							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  </a>
+				</div>
+			</figcaption>
+       </figure>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   android isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/portfolio_pic8.jpg" alt="Portfolio 1"> </div>       
+      <figcaption>		
+				<div>
+				  <a href="img/portfolio_pic8.jpg" class="fancybox"> 
+					<h2>Warm <span>Oscar</span></h2>
+							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item --> 
+      
+    </div>
+    <!--/Portfolio Wrapper --> 
+    
+  </div>
+  <!--/Portfolio Filters -->
+  
+  <div class="portfolio_btm"></div>
+  
+  
+  <div id="project_container">
+    <div class="clear"></div>
+    <div id="project_data"></div>
+  </div>
+ 
+  
+</section>
+<!--/Portfolio --> 
+
+<section class="page_section" id="clients"><!--page_section-->
+  <h2>Worked For</h2>
+<!--page_section-->
+<div class="client_logos"><!--client_logos-->
+  <div class="container">
+    <ul class="fadeInRight animated wow">
+      <li><a href="javascript:void(0)"><img src="img/client_logo1.png" alt=""></a></li>
+      <li><a href="javascript:void(0)"><img src="img/client_logo2.png" alt=""></a></li>
+      <li><a href="javascript:void(0)"><img src="img/client_logo3.png" alt=""></a></li>
+      <li><a href="javascript:void(0)"><img src="img/client_logo5.png" alt=""></a></li>
+    </ul>
+  </div>
+</div>
+</section>
+<!--client_logos-->
+
+<section class="page_section team" id="team"><!--main-section team-start-->
+  <div class="container">
+    <h2>Testimonial</h2>
+    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing.</h6>
+	  	
+		<div id="team" name="team">
+  <div class="container">
+    <div class="row centered">
+      
+      <div class="col-md-3 centered"> <img class="img img-circle lt-box" src="img/team01.jpg" height="120px" width="120px" alt="">
+        <div class="rt-box"><h4><strong>Rosy Illue</strong></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor.</p><br/>
+		</div>
+       </div>
+         <div class="col-md-3 centered"> <img class="img img-circle lt-box" src="img/team02.jpg" height="120px" width="120px" alt="">
+        <div class="rt-box"><h4><strong>Nissy Yukjk</strong></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor.</p><br/>
+		</div>
+       </div>
+	      <div class="col-md-3 centered"> <img class="img img-circle lt-box" src="img/team03.jpg" height="120px" width="120px" alt="">
+        <div class="rt-box"><h4><strong>Fsdf Efffl</strong></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor.</p><br/>
+		</div>
+       </div>
+	      <div class="col-md-3 centered"> <img class="img img-circle lt-box" src="img/team04.jpg" height="120px" width="120px" alt="">
+        <div class="rt-box"><h4><strong>Mnin Nulk</strong></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor.</p><br/>
+		</div>
+       </div>
+   
+    </div>
+  </div>
+  <!-- row --> 
+</div>
+	</div>
+</section>
+<!--/Team-->
+<!--Footer-->
+<footer class="footer_wrapper" id="contact">
+  <div class="container">
+    <section class="page_section contact" id="contact">
+      <div class="contact_section">
+        <h2>Get In Touch</h2>
+	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
+     
+      </div>
+      <div class="row">
+        <div class="col-lg-4 wow fadeInLeft">	
+		 <div class="contact_info">
+                            <div class="detail">
+                                <h4>UNIQUE Infoway</h4>
+                                <p>104, Some street, NewYork, USA</p>
+                            </div>
+                            <div class="detail">
+                                <h4>call us</h4>
+                                <p>+1 234 567890</p>
+                            </div>
+                            <div class="detail">
+                                <h4>Email us</h4>
+                                <p>support@sitename.com</p>
+                            </div> 
+                        </div>
+       		  
+			  
+          
+          <ul class="social_links">
+            <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+            <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
+            <li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>
+            <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li> 
+          </ul>
+        </div>
+        <div class="col-lg-8 wow fadeInLeft delay-06s">
+          <div class="form">
+            <input class="input-text" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <input class="input-text" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+            <input class="input-btn" type="submit" value="send message">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="container">
+    <div class="footer_bottom"><span>Copyright © 2015,    Template by <a href="https://github.com/hiibrarahmad">Ibrar Ahmad</a>. </span> </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script> 
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
+<script type="text/javascript" src="js/wow.js"></script> 
+<script type="text/javascript" src="js/custom.js"></script>
+
 </body>
 </html>
