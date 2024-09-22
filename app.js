@@ -46,66 +46,67 @@ function PageTransition(){
 
 PageTransition();
 
-particlesJS('particles-js', {
-    "particles": {
-      "number": {
-        "value": 100,
-        "density": {
-          "enable": true,
-          "value_area": 800
-        }
-      },
-      "color": {
-        "value": "#00ff99" /* Electric green, adjust to your preference */
-      },
-      "shape": {
-        "type": "edge", /* You can try 'circle', 'polygon', or 'star' */
-        "stroke": {
-          "width": 2,
-          "color": "#00ff99" /* Stroke color */
-        },
-      },
-      "opacity": {
-        "value": 0.5,
-        "random": true
-      },
-      "size": {
-        "value": 5,
-        "random": true
-      },
-      "line_linked": {
+// Create the custom cursor
+const cursor = document.createElement('div');
+cursor.classList.add('cursor');
+document.body.appendChild(cursor);
+
+// Update cursor position based on mouse movement
+document.addEventListener('mousemove', (e) => {
+    cursor.style.top = `${e.clientY}px`;
+    cursor.style.left = `${e.clientX}px`;
+});
+
+// Initialize particles.js for electric effect
+particlesJS("particles-js", {
+  "particles": {
+    "number": {
+      "value": 80,
+      "density": {
         "enable": true,
-        "distance": 150,
-        "color": "#00ff99",
-        "opacity": 0.6,
-        "width": 2
-      },
-      "move": {
-        "enable": true,
-        "speed": 6,
-        "direction": "none",
-        "random": true,
-        "straight": false,
-        "out_mode": "out",
-        "bounce": false,
+        "value_area": 800
       }
     },
-    "interactivity": {
-      "detect_on": "canvas",
-      "events": {
-        "onhover": {
-          "enable": true,
-          "mode": "repulse" /* The particles will repel from the cursor */
-        },
-        "onclick": {
-          "enable": true,
-          "mode": "push"
-        },
-      },
+    "color": {
+      "value": ["#00ffff", "#00aaff"]
     },
-    "retina_detect": true
-  });
-  
+    "shape": {
+      "type": "circle"
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": true
+    },
+    "size": {
+      "value": 5,
+      "random": true
+    },
+    "line_linked": {
+      "enable": false
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "attract": {
+        "enable": false
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      }
+    }
+  },
+  "retina_detect": true
+});
 
 
 
