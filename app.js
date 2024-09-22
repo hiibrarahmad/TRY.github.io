@@ -47,52 +47,6 @@ function PageTransition(){
 
 
 
-particlesJS("particles-js", {
-    "particles": {
-      "number": {
-        "value": 80,
-        "density": {
-          "enable": true,
-          "value_area": 800
-        }
-      },
-      "color": {
-        "value": ["#00ffff", "#00aaff", "#ffffff"]
-      },
-      "shape": {
-        "type": "circle",
-      },
-      "opacity": {
-        "value": 0.6,
-        "random": true
-      },
-      "size": {
-        "value": 5,
-        "random": true
-      },
-      "move": {
-        "enable": true,
-        "speed": 6,
-        "direction": "none",
-        "random": true,
-        "out_mode": "out",
-        "bounce": false
-      }
-    },
-    "interactivity": {
-      "detect_on": "canvas",
-      "events": {
-        "onhover": {
-          "enable": true,
-          "mode": "repulse"
-        }
-      }
-    },
-    "retina_detect": true
-  });
-  
-
-
 
 
 

@@ -879,20 +879,3 @@ section {
 
 
 
-
-/* Custom cursor */
-body {
-  cursor: none; /* Hide the default cursor */
-}
-
-.cursor {
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  border-radius: 50%;
-  background: radial-gradient(circle, #00ffff, #00aaff, transparent);
-  pointer-events: none;
-  z-index: 1000;
-  transform: translate(-50%, -50%);
-  transition: transform 0.2s ease-out;
-}
