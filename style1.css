@@ -104,3 +104,47 @@ h2 {
 
 
 
+.skills-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Add space between items */
+}
+
+.skills-list i {
+  margin-right: 10px; /* Add space between icon and text */
+  font-size: 1.5em; /* Increase icon size for better visibility */
+}
+
+.skills-category h5 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 15px; /* More space below each category */
+}
+
+.skills-category {
+  margin-bottom: 30px; /* Space between different skill categories */
+}
+
+body {
+  background-color: #1b1b1b; /* Dark background */
+  color: #ffffff; /* Bright white text for better contrast */
+}
+
+.skills-list li a {
+  color: #ffffff; /* Ensuring skill links are visible */
+  text-decoration: none;
+}
+
+.skills-list li a:hover {
+  color: #00bcd4; /* Add a hover effect for better interaction */
+}
+
+.skills-list li:hover {
+  background-color: #333; /* Add background change on hover */
+  border-radius: 5px; /* Optional: round the corners slightly */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.about-stats {
+  padding: 20px;
+}
