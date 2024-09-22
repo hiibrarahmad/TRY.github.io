@@ -50,49 +50,47 @@ function PageTransition(){
 particlesJS("particles-js", {
     "particles": {
       "number": {
-        "value": 80, // Adjust the number of particles
+        "value": 80,
         "density": {
           "enable": true,
-          "value_area": 800 // The area where particles will be distributed
+          "value_area": 800
         }
       },
       "color": {
-        "value": ["#00ffff", "#00aaff", "#ffffff"] // Electric spark colors (cyan, blue, white)
+        "value": ["#00ffff", "#00aaff", "#ffffff"]
       },
       "shape": {
-        "type": "circle", // You can also experiment with "edge" or "triangle"
+        "type": "circle",
       },
       "opacity": {
-        "value": 0.6, // Semi-transparent for electric glow effect
+        "value": 0.6,
         "random": true
       },
       "size": {
-        "value": 5, // Size of particles
-        "random": true // Random size for variety
+        "value": 5,
+        "random": true
       },
       "move": {
         "enable": true,
-        "speed": 6, // Speed of the particles, adjust to make it feel "electric"
-        "direction": "none", // Moves randomly in all directions
+        "speed": 6,
+        "direction": "none",
         "random": true,
-        "straight": false, // If true, particles will move in straight lines
-        "out_mode": "out", // Particles will disappear and reappear
-        "bounce": false // Particles won't bounce on the edges
+        "out_mode": "out",
+        "bounce": false
       }
     },
     "interactivity": {
-      "detect_on": "canvas", // Detects mouse interaction within the canvas
+      "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": true, // Interact with the mouse on hover
-          "mode": "repulse" // Particles move away from the cursor
+          "enable": true,
+          "mode": "repulse"
         }
       }
     },
-    "retina_detect": true // Adjusts for high-resolution displays
+    "retina_detect": true
   });
   
-
 
 
 
