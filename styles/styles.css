@@ -909,6 +909,6 @@ body {
 }
 
 .qr-code {
-  width: 150px; /* Set the size of the QR code image */
+  width: 80px; /* Set the size of the QR code image */
   height: auto; /* Maintain aspect ratio */
 }
