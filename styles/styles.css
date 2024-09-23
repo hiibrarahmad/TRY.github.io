@@ -896,19 +896,3 @@ body {
   border-radius: 5px; /* Optional: round the corners slightly */
   transition: background-color 0.3s ease; /* Smooth transition */
 }
-
-.about-stats {
-  padding: 20px;
-}
-.cv-section {
-  text-align: center; /* Centers everything in this section */
-}
-
-.qr-code-container {
-  margin-bottom: 20px; /* Space between the QR code and the button */
-}
-
-.qr-code {
-  width: 80px; /* Set the size of the QR code image */
-  height: auto; /* Maintain aspect ratio */
-}
